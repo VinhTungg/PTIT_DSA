@@ -1,0 +1,63 @@
+#include <bits/stdc++.h>
+#define ll long long
+#define boost ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+#define endl "\n"
+#define MOD 1000000007
+
+using namespace std;
+int t = 1, n;
+vector<int> v;
+
+struct node{
+    int data;
+    node *next;
+};
+
+bool find(node *head, int x){
+    while(head != NULL){
+        if(head->data == x) return true;
+        head = head->next;
+    }
+    return false;
+}
+
+node *makeNode(int x){
+    node *newNode = new node();
+    newNode->data = x;
+    newNode->next = NULL;
+    return newNode;
+}
+
+void print(node *head){
+    while(head != NULL){
+        cout << head->data << ' ';
+        head = head->next;
+    }
+}
+
+void push_back(node *&head, int x){
+    node *tmp = head;
+    node *newNode = makeNode(x);
+    if(head == NULL){
+        head = newNode;
+        return;
+    }
+    while(tmp->next != NULL){
+        tmp = tmp->next;
+    }
+    tmp->next = newNode;
+}
+
+int main(){
+    boost;
+    //cin >> t;
+    while(t--){
+        cin >> n;
+        node *head = NULL;
+        for(int i = 1; i <= n; ++i){
+            int a; cin >> a;
+            if(!find(head, a)) push_back(head, a);
+        }
+        print(head);
+    }
+}
