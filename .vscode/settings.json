@@ -78,6 +78,12 @@
     "valarray": "cpp",
     "random": "cpp",
     "tuple": "cpp",
-    "chrono": "cpp"
+    "chrono": "cpp",
+    "iosfwd": "cpp",
+    "any": "cpp",
+    "barrier": "cpp",
+    "latch": "cpp",
+    "limits": "cpp",
+    "semaphore": "cpp"
   }
 }

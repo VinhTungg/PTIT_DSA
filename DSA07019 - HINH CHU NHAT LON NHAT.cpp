@@ -11,26 +11,21 @@ int main(){
     boost;
     cin >> t;
     while(t--){
-        int n; cin >> n;
+        int n; 
+        cin >> n;
         vector<ll> a(n);
         for(auto &x : a) cin >> x;
+        stack<ll> st;
         ll maxArea = 0;
-        stack<int> st;
-        for(int i = 0; i < n; ++i){
-            if(st.empty() or a[i] >= a[st.top()]) st.push(i);
-            else{
-                int tmp = st.top();
+        for(int i = 0; i <= n; ++i){
+            ll currentHeight = (i == n) ? 0 : a[i];
+            while(!st.empty() and currentHeight < a[st.top()]){
+                ll height = a[st.top()];
                 st.pop();
-                ll cur_area = (st.empty() ? a[tmp] * i : a[tmp] * (i - st.top() - 1));
-                maxArea = max(maxArea, cur_area);
+                ll width = st.empty() ? i : i - st.top() - 1;
+                maxArea = max(maxArea, height * width);
             }
-        }
-        int i = n;
-        if(maxArea == 0){
-            int tmp = st.top();
-            st.pop();
-            ll cur_area = (st.empty() ? a[tmp] * i : a[tmp] * (i - st.top() - 1));
-            maxArea = max(maxArea, cur_area);
+            if(i < n) st.push(i);
         }
         cout << maxArea << endl;
     }

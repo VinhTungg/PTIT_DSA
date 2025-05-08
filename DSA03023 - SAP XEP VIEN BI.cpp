@@ -14,14 +14,30 @@ int main(){
         int n; cin >> n;
         string s;
         cin >> s;
-        int count_X = count(s.begin(), s.end(), 'X');
-        int count_D = count(s.begin(), s.end(), 'D');
-        int count_T = n - count_X - count_D;
-        int swapX = 0, swapD = 0, swapT = 0;
-        for(int i = 0; i < count_X; ++i) swapX += (s[i] != 'X');
-        for(int i = count_X; i < count_X + count_T; ++i) swapT += (s[i] != 'T');
-        for(int i = count_X + count_T; i < n; ++i) swapD += (s[i] != 'D');
-        int ans = min(swapX, swapT) + abs(swapX - swapT) + swapD;
+        int count_X = 0, count_T = 0, count_D = 0;
+        for(char &c : s){
+            if (c == 'X') count_X++;
+            else if (c == 'T') count_T++;
+            else count_D++;
+        }
+        int T_in_X = 0, D_in_X = 0;
+        int X_in_T = 0, D_in_T = 0;
+        int X_in_D = 0, T_in_D = 0;
+        for(int i = 0; i < count_X; ++i){
+            if (s[i] == 'T') T_in_X++;
+            else if (s[i] == 'D') D_in_X++;
+        }
+        for(int i = count_X; i < count_X + count_T; ++i){
+            if (s[i] == 'X') X_in_T++;
+            else if (s[i] == 'D') D_in_T++;
+        }
+        for(int i = count_X + count_T; i < n; ++i){
+            if (s[i] == 'X') X_in_D++;
+            else if (s[i] == 'T') T_in_D++;
+        }
+        int direct_swaps = min(T_in_X, X_in_T) + min(D_in_X, X_in_D) + min(D_in_T, T_in_D);
+        int cycle_swaps = 2 * ((T_in_X - min(T_in_X, X_in_T)) + (D_in_X - min(D_in_X, X_in_D)));
+        int ans = direct_swaps + cycle_swaps;
         cout << ans << endl;
     }
 }
