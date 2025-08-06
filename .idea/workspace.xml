@@ -13,19 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="702fa2c1-622e-4717-9823-8f54f1e40878" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PTIT_DSA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PTIT_DSA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PTIT_DSA2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA03023 - SAP XEP VIEN BI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DSA03023 - SAP XEP VIEN BI.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA03026 - LUA CHON THAM LAM.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DSA03026 - LUA CHON THAM LAM.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA07019 - HINH CHU NHAT LON NHAT.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DSA07019 - HINH CHU NHAT LON NHAT.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA09028 - TO MAU DO THI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DSA09028 - TO MAU DO THI.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAKT012 - ĐỔI TIỀN.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAKT110 - NHA KHONG KE NHAU.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSAKT060 - TRUY VAN DOI XUNG.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DSAKT060 - TRUY VAN DOI XUNG.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,37 +31,37 @@
     <setting file="mock:///AIAssistantSnippet.." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet.." root0="SKIP_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2wXD6NPHVtIuJ1RynXqSPNWKf32" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "C/C++ File.DSA05046 - LUY THUA BAC K.cpp.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ADMIN/OneDrive/Documents/Code/PTIT_DSA",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C/C++ File.DSA05046 - LUY THUA BAC K.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ADMIN/OneDrive/Documents/Code/PTIT_DSA&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="DSA05046 - LUY THUA BAC K.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PTIT_DSA" TARGET_NAME="DSA05046 - LUY THUA BAC K.cpp" CONFIG_NAME="DSA05046 - LUY THUA BAC K.cpp">
       <option name="sourceFile" value="C:\Users\ADMIN\OneDrive\Documents\Code\PTIT_DSA\DSA05046 - LUY THUA BAC K.cpp" />
@@ -90,6 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1746178848255</updated>
       <workItem from="1746178849472" duration="417000" />
+      <workItem from="1748444736526" duration="18000" />
     </task>
     <servers />
   </component>
